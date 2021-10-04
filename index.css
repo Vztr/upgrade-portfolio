@@ -1,0 +1,168 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(42, 42, 42);
+}
+
+.logo {
+    width: 40%;
+    margin-top: 30px;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.menu {
+    text-decoration: none;
+    margin-top: 30px;
+    color: whitesmoke;
+    align-items: center;
+
+}
+
+.menu ul {
+    display: flex;
+    width: 100px;
+    list-style: none;
+}
+
+.menu li {
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+    color: whitesmoke;
+    padding-left: 20px;
+}
+
+main {
+    background-color: rgb(22, 22, 22);
+}
+
+.sobremi {
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    padding: 30px 15px;
+
+}
+
+.sobremi h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.sobremi p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    text-align: left;
+    color: thistle;
+}
+
+.tienda {
+    width: 100%;
+}
+
+.tienda h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.tienda__product {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.tienda__product__img {
+    padding: 60px 5px;
+}
+
+.tienda__product__img h2 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tienda__product__img p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    text-align: center;
+    color: thistle;
+}
+
+.tienda__product__img img {
+   align-items: center;
+}
+
+.contact h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.contact__container {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact__container input {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 5px;
+    margin: 25px 20px;
+}
+
+.contact__container textarea {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 5px;
+    margin: 25px 20px;
+}
+
+footer {
+    height: 80px;
+    align-content: center;
+    font-weight: 700;
+}
+
+.text {
+    text-align: center;
+    padding: 20px 2px;
+    font-weight: 600;
+    letter-spacing: 12px;
+}
+
+.socialmedia a {
+    justify-content: space-around;
+    text-decoration: none;
+    position: relative;
+    left: 45%;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+
+.socialmedia a img{
+    max-width: 30px;
+}
